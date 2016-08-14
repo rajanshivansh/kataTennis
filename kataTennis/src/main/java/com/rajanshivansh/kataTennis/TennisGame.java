@@ -29,16 +29,15 @@ public class TennisGame {
 	}
 
 	/**
-	 * Method to be called when umpire presses the button “{playerName} scores” 
+	 * Method to be called when umpire presses the button â€œ{playerName} scoresâ€� 
 	 * 
 	 * @param playerName
 	 */
 	public void wonPoint(String playerName) {
-		if (player1.getName().equals(playerName))
+		if (player1.getName().equals(playerName)) {
 			player1.setScore(player1.getScore() + 1);
-		else {
+		} else {
 			player2.setScore(player2.getScore() + 1);
-
 		}
 	}
 	
