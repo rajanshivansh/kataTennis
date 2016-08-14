@@ -29,7 +29,7 @@ public class TennisGame {
 	}
 
 	/**
-	 * Method to be called when umpire presses the button â€œ{playerName} scoresâ€� 
+	 * Method to be called when umpire presses the button "{playerName} scores"
 	 * 
 	 * @param playerName
 	 */
